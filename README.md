@@ -1,16 +1,8 @@
-<!-- [![Build Status](https://img.shields.io/codeship/41810250-aa07-0132-fbf4-4e62e8945e03/master.svg?style=flat-square)](https://codeship.com/projects/67868)
-[![Contributors](https://img.shields.io/github/contributors/moroshko/react-autosuggest.svg?style=flat-square)](https://github.com/moroshko/react-autosuggest/graphs/contributors)
-[![Coverage Status](https://img.shields.io/codecov/c/github/moroshko/react-autosuggest/master.svg?style=flat-square)](https://codecov.io/gh/moroshko/react-autosuggest)
-
-[![npm Downloads](https://img.shields.io/npm/dm/react-autosuggest.svg?style=flat-square)](https://npmjs.org/package/react-autosuggest)
-[![npm Version](https://img.shields.io/npm/v/react-autosuggest.svg?style=flat-square)](https://npmjs.org/package/react-autosuggest)
-![gzip size](http://img.badgesize.io/https://unpkg.com/react-autosuggest/dist/standalone/autosuggest.min.js?compression=gzip&style=flat-square) -->
-
 # useDebounce
 
 ## Demo
 
-Check out the [Codepen example](http://codepen.io/collection/DkkYaQ).
+Check out the [Codepen example](//).
 
 ## Basic Usage as a Hook
 
@@ -138,14 +130,13 @@ toDebounce: PropTypes.func.isRequired,
 delay: PropTypes.number.isRequired,
 getResponse: PropTypes.func.isRequired
 
-| Prop                          | Type     | Required | Description                                     |
-| :---------------------------- | :------- | :------: | :---------------------------------------------- |
-| [`toDebounce`](#toDebounce)   | Func     |    ✓     | Function That will be Debounced                 |
-| [`delay`](#delay)             | Number   |    ✓     | Number of milliseconds to debounce.             |
-| [`getResponse`](#getResponse) | Function |    ✓     | Function to get the response from the component |
-
-| [`promise`](#promise) | Boolean | default : true |If you need to return a promise or a simple return |
-| [`DontfireOnBackspace`](#DontfireOnBackspace) | Boolean | default : false | Wether to stop firing API when pressing backspace |
+| Prop                                          | Type     |    Required     | Description                                        |
+| :-------------------------------------------- | :------- | :-------------: | :------------------------------------------------- |
+| [`toDebounce`](#toDebounce)                   | Func     |        ✓        | Function That will be Debounced                    |
+| [`delay`](#delay)                             | Number   |        ✓        | Number of milliseconds to debounce.                |
+| [`getResponse`](#getResponse)                 | Function |        ✓        | Function to get the response from the component    |
+| [`promise`](#promise)                         | Boolean  | default : true  | If you need to return a promise or a simple return |
+| [`DontfireOnBackspace`](#DontfireOnBackspace) | Boolean  | default : false | Wether to stop firing API when pressing backspace  |
 
 ## License
 

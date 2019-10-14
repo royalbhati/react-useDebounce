@@ -122,13 +122,7 @@ function ReactAutoSuggestExample() {
 }
 ```
 
-## valueLengthConstraint: PropTypes.number,
-
-promise: PropTypes.bool,
-DontfireOnBackspace: PropTypes.bool,
-toDebounce: PropTypes.func.isRequired,
-delay: PropTypes.number.isRequired,
-getResponse: PropTypes.func.isRequired
+## Props
 
 | Prop                                          | Type     |    Required     | Description                                        |
 | :-------------------------------------------- | :------- | :-------------: | :------------------------------------------------- |

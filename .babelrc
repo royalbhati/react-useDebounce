@@ -1,0 +1,12 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "debug": true
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}
